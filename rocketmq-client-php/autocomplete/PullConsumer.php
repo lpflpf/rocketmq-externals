@@ -75,6 +75,9 @@ class PullConsumer{
     public function fetchConsumeOffset(MessageQueue $messageQueue, string $fromStore){
     }
 
+    public function persistConsumerOffset4PullConsumer(MessageQueue $messageQueue){
+    }
+
     public function setMessageModel($model){
     }
 
